@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/purple_700"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="2dp">
+
+        <TextView
+            android:id="@+id/txtTieuDe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="18dp"
+            android:text="Lập trình sự kiện"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="421dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp">
+
+        <TextView
+            android:id="@+id/txt_SoA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số A:"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="146dp" />
+
+        <EditText
+            android:id="@+id/edt_SoA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:ems="10"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="127dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp">
+
+        <TextView
+            android:id="@+id/txt_SoB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số B:"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="207dp" />
+
+        <EditText
+            android:id="@+id/edt_SoB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:ems="10"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="127dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edt_Kq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp">
+
+        <Button
+            android:id="@+id/btnTong"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:text="TỔNG 2 SỐ"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="321dp" />
+
+        <Button
+            android:id="@+id/btnHieu"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:text="HIỆU 2 SỐ"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="386dp" />
+
+        <Button
+            android:id="@+id/btnTich"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:text="TÍCH 2 SỐ"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="450dp" />
+
+        <Button
+            android:id="@+id/btnThuong"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:text="THƯƠNG 2 SỐ"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="516dp" />
+
+        <Button
+            android:id="@+id/btnUoc"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:text="ƯỚC CHUNG LỚN NHẤT"
+            tools:layout_editor_absoluteX="15dp"
+            tools:layout_editor_absoluteY="579dp" />
+
+        <Button
+            android:id="@+id/btnThoat"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:text="THOÁT CHƯƠNG TRÌNH"
+            tools:layout_editor_absoluteX="15dp"
+            tools:layout_editor_absoluteY="646dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
